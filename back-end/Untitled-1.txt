@@ -1,0 +1,24 @@
+id	int	NO	PRI		auto_increment
+user_id	int	NO			
+address	varchar(500)	NO			
+delivery_option	varchar(50)	NO			
+payment_method	varchar(50)	NO			
+card_number	varchar(20)	YES			
+expiry_date	varchar(10)	YES			
+cvv	varchar(5)	YES			
+password	varchar(50)	YES			
+bank	varchar(100)	YES			
+wallet	varchar(100)	YES			
+products	text	NO			
+rate	text	NO			
+quantity	text	NO			
+total	decimal(10,2)	NO			
+delivery_status	varchar(20)	NO			
+ordered_at	datetime	YES		CURRENT_TIMESTAMP	DEFAULT_GENERATED
+tracking_id	varchar(100)	YES			
+cooking_instructions	text	YES			
+approved_at	datetime	YES			
+delivered_at	datetime	YES			
+canceled_at	timestamp	YES			
+cancelled_by	varchar(200)	YES			
+reason	text	YES			
